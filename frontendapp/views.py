@@ -7,3 +7,7 @@ def buttons(request):
 
 def text(request):
     return render(request, 'text.html')
+
+
+def youtube(request):
+    return render(request, 'youtube.html')
